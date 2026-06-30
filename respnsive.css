@@ -1,0 +1,222 @@
+/* =========================================
+   MediCare Plus Hospital
+   responsive.css
+========================================= */
+
+/* ---------- Large Tablets ---------- */
+
+@media screen and (max-width: 992px) {
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .nav-links{
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links li{
+        margin: 10px;
+    }
+
+    .hero{
+        padding: 80px 20px;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    section{
+        padding: 50px 5%;
+    }
+
+}
+
+/* ---------- Tablets ---------- */
+
+@media screen and (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+    }
+
+    .logo{
+        margin-bottom:15px;
+        font-size:26px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+
+    .nav-links li{
+        margin:8px 0;
+    }
+
+    .hero{
+        padding:70px 20px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    .btn{
+        padding:12px 25px;
+        font-size:16px;
+    }
+
+    .page-banner{
+        padding:50px 20px;
+    }
+
+    .page-banner h1{
+        font-size:32px;
+    }
+
+    section{
+        padding:40px 20px;
+    }
+
+    section h2{
+        font-size:28px;
+    }
+
+    .card-container{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .card img{
+        width:120px;
+        height:120px;
+    }
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    form{
+        padding:25px;
+    }
+
+    input,
+    select,
+    textarea{
+        font-size:16px;
+    }
+
+}
+
+/* ---------- Mobile Phones ---------- */
+
+@media screen and (max-width:576px){
+
+    .hero{
+        padding:60px 15px;
+    }
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+
+    section h2{
+        font-size:24px;
+    }
+
+    .page-banner h1{
+        font-size:28px;
+    }
+
+    .btn{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+
+    form{
+        padding:20px;
+    }
+
+    form input,
+    form select,
+    form textarea,
+    form button{
+        font-size:15px;
+    }
+
+    .gallery-item img{
+        height:200px;
+    }
+
+    .emergency h3{
+        font-size:26px;
+    }
+
+    footer{
+        padding:20px;
+    }
+
+}
+
+/* ---------- Small Mobile Phones ---------- */
+
+@media screen and (max-width:400px){
+
+    .hero h1{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:14px;
+    }
+
+    .page-banner h1{
+        font-size:24px;
+    }
+
+    section{
+        padding:30px 15px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    .card img{
+        width:100px;
+        height:100px;
+    }
+
+    .btn{
+        font-size:15px;
+        padding:10px;
+    }
+
+}
